@@ -1,0 +1,144 @@
+body {
+  width: 350px;
+  padding: 15px;
+  font-family: Arial, sans-serif;
+  background-color: #f4cc7c;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.keyword-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+#keyword-input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+#add-keyword {
+  background-color: #4ea983;
+  color: white;
+}
+
+#add-keyword:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+#keywords-list {
+  margin: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  min-height: 35px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+
+.keyword-item {
+  display: inline-flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 0px 12px;
+  border-radius: 10px;
+  font-size: 14px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+
+.keyword-item:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.keyword-item span:first-child {
+  margin-right: 8px;
+  color: #333;
+}
+
+.remove-keyword {
+  color: #e74c3c;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+
+.remove-keyword:hover {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.counter {
+  margin: 15px 0;
+  color: #333;
+  font-weight: 500;
+}
+
+.primary-button {
+  background-color: #2196F3;
+  color: white;
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+}
+
+.upgrade-banner {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.upgrade-banner h3 {
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.upgrade-banner p {
+  margin: 0 0 15px 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.secondary-button {
+  background-color: #4ea983;
+  color: white;
+  width: 100%;
+}

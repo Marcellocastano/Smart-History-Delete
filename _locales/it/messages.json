@@ -1,0 +1,72 @@
+{
+  "extName": {
+    "message": "Smart History Delete",
+    "description": "Nome dell'estensione"
+  },
+  "extDescription": {
+    "message": "Rimuovi automaticamente le voci della cronologia in base a parole chiave specifiche",
+    "description": "Descrizione dell'estensione"
+  },
+  "addKeyword": {
+    "message": "Aggiungi",
+    "description": "Testo del pulsante per aggiungere una parola chiave"
+  },
+  "keywordPlaceholder": {
+    "message": "Inserisci una parola chiave",
+    "description": "Testo placeholder per l'input delle parole chiave"
+  },
+  "freeVersionLimit": {
+    "message": "parole chiave (versione gratuita)",
+    "description": "Testo che indica il limite della versione gratuita"
+  },
+  "deleteHistory": {
+    "message": "Elimina dalla cronologia",
+    "description": "Testo del pulsante per eliminare la cronologia"
+  },
+  "deletingHistory": {
+    "message": "Eliminazione in corso...",
+    "description": "Testo mostrato durante l'eliminazione"
+  },
+  "upgradeTitle": {
+    "message": "Passa a Pro",
+    "description": "Titolo della sezione upgrade"
+  },
+  "upgradeDescription": {
+    "message": "Sblocca parole chiave illimitate e altre funzionalità premium",
+    "description": "Descrizione della versione Pro"
+  },
+  "upgradeButton": {
+    "message": "Upgrade a Pro",
+    "description": "Testo del pulsante per l'upgrade"
+  },
+  "keywordExistsError": {
+    "message": "Questa parola chiave è già presente nella lista!",
+    "description": "Messaggio di errore per parole chiave duplicate"
+  },
+  "noKeywordsError": {
+    "message": "Aggiungi almeno una parola chiave prima di procedere.",
+    "description": "Messaggio di errore quando non ci sono parole chiave"
+  },
+  "deleteConfirmation": {
+    "message": "Sei sicuro di voler eliminare tutte le voci della cronologia contenenti queste parole chiave?",
+    "description": "Messaggio di conferma per l'eliminazione"
+  },
+  "deleteSuccess": {
+    "message": "Cronologia eliminata con successo! Elementi eliminati: $COUNT$",
+    "description": "Messaggio di successo dopo l'eliminazione",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "deleteError": {
+    "message": "Si è verificato un errore durante l'eliminazione della cronologia.",
+    "description": "Messaggio di errore durante l'eliminazione"
+  },
+  "removeKeyword": {
+    "message": "Rimuovi parola chiave",
+    "description": "Tooltip per il pulsante di rimozione della parola chiave"
+  }
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Smart History Delete</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Smart History Delete</h1>
+    
+    <div id="free-version">
+      <div class="keyword-container">
+        <input type="text" id="keyword-input">
+        <button id="add-keyword"></button>
+      </div>
+      
+      <div id="keywords-list">
+        <!-- Le parole chiave verranno inserite qui dinamicamente -->
+      </div>
+      
+      <div class="counter">
+        <span id="keywords-count">0</span>/5 <span id="version-limit"></span>
+      </div>
+      
+      <button id="delete-history" class="primary-button"></button>
+      
+      <div class="upgrade-banner">
+        <h3 id="upgrade-title"></h3>
+        <p id="upgrade-description"></p>
+        <button id="upgrade-button" class="secondary-button"></button>
+      </div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
