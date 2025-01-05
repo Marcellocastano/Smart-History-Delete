@@ -142,3 +142,28 @@ button:hover {
   color: white;
   width: 100%;
 }
+
+.support-section {
+  margin-top: 20px;
+  text-align: center;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+}
+
+.support-text {
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.bmc-button {
+  height: 60px !important;
+  width: 217px !important;
+  transition: transform 0.2s ease;
+}
+
+.bmc-button:hover {
+  transform: scale(1.02);
+}

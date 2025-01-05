@@ -8,9 +8,9 @@ document.addEventListener('DOMContentLoaded', function() {
   const keywordsList = document.getElementById('keywords-list');
   const keywordsCount = document.getElementById('keywords-count');
   const deleteHistoryButton = document.getElementById('delete-history');
-  const upgradeButton = document.getElementById('upgrade-button');
-  const upgradeTitle = document.getElementById('upgrade-title');
-  const upgradeDescription = document.getElementById('upgrade-description');
+  // const upgradeButton = document.getElementById('upgrade-button');
+  // const upgradeTitle = document.getElementById('upgrade-title');
+  // const upgradeDescription = document.getElementById('upgrade-description');
   const versionLimit = document.getElementById('version-limit');
 
   // Inizializza le traduzioni
@@ -18,10 +18,11 @@ document.addEventListener('DOMContentLoaded', function() {
     keywordInput.placeholder = chrome.i18n.getMessage('keywordPlaceholder');
     addKeywordButton.textContent = chrome.i18n.getMessage('addKeyword');
     deleteHistoryButton.textContent = chrome.i18n.getMessage('deleteHistory');
-    upgradeTitle.textContent = chrome.i18n.getMessage('upgradeTitle');
-    upgradeDescription.textContent = chrome.i18n.getMessage('upgradeDescription');
-    upgradeButton.textContent = chrome.i18n.getMessage('upgradeButton');
+    // upgradeTitle.textContent = chrome.i18n.getMessage('upgradeTitle');
+    // upgradeDescription.textContent = chrome.i18n.getMessage('upgradeDescription');
+    // upgradeButton.textContent = chrome.i18n.getMessage('upgradeButton');
     versionLimit.textContent = chrome.i18n.getMessage('freeVersionLimit');
+    document.getElementById('support-text').textContent = chrome.i18n.getMessage('supportText');
   }
 
   // Carica le parole chiave salvate
@@ -169,9 +170,9 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   // Gestisci l'upgrade
-  upgradeButton.addEventListener('click', function() {
-    alert('Funzionalità Pro in arrivo! Questa funzionalità sarà disponibile presto.');
-  });
+  // upgradeButton.addEventListener('click', function() {
+  //   alert('Funzionalità Pro in arrivo! Questa funzionalità sarà disponibile presto.');
+  // });
 
   // Inizializza le traduzioni e lo stato del pulsante di aggiunta
   initializeTranslations();

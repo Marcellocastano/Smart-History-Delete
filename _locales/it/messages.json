@@ -68,5 +68,9 @@
   "removeKeyword": {
     "message": "Rimuovi parola chiave",
     "description": "Tooltip per il pulsante di rimozione della parola chiave"
+  },
+  "supportText": {
+    "message": "Se vuoi supportare il mio lavoro puoi effettuare una donazione dal bottone qui sotto, grazie ❤️",
+    "description": "Messaggio di supporto per Buy Me a Coffee"
   }
 }

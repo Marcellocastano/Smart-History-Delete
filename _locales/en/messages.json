@@ -68,5 +68,9 @@
   "removeKeyword": {
     "message": "Remove keyword",
     "description": "Tooltip for keyword removal button"
+  },
+  "supportText": {
+    "message": "If you want to support my work you can make a donation using the button below, thank you \u2764\ufe0f",
+    "description": "Support message for Buy Me a Coffee"
   }
 }
