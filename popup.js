@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-  const MAX_FREE_KEYWORDS = 5;
+  const MAX_FREE_KEYWORDS = 15;
   let keywords = [];
 
   // Elementi DOM

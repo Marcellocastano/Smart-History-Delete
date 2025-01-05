@@ -1,59 +1,45 @@
 {
   "extName": {
-    "message": "Smart History Delete",
-    "description": "Extension name"
+    "message": "Smart History Delete"
   },
   "extDescription": {
-    "message": "Automatically remove history entries based on specific keywords",
-    "description": "Extension description"
+    "message": "Automatically remove history entries based on specific keywords"
   },
   "addKeyword": {
-    "message": "Add",
-    "description": "Add keyword button text"
+    "message": "Add"
   },
   "keywordPlaceholder": {
-    "message": "Enter a keyword",
-    "description": "Placeholder text for keyword input"
+    "message": "Enter a keyword"
   },
   "freeVersionLimit": {
-    "message": "keywords (free version)",
-    "description": "Text indicating free version limit"
+    "message": "keywords (free version)"
   },
   "deleteHistory": {
-    "message": "Delete from history",
-    "description": "Delete history button text"
+    "message": "Delete from history"
   },
   "deletingHistory": {
-    "message": "Deleting...",
-    "description": "Text shown while deleting"
+    "message": "Deleting..."
   },
   "upgradeTitle": {
-    "message": "Upgrade to Pro",
-    "description": "Upgrade section title"
+    "message": "Upgrade to Pro"
   },
   "upgradeDescription": {
-    "message": "Unlock unlimited keywords and other premium features",
-    "description": "Pro version description"
+    "message": "Unlock unlimited keywords and other premium features"
   },
   "upgradeButton": {
-    "message": "Upgrade to Pro",
-    "description": "Upgrade button text"
+    "message": "Upgrade to Pro"
   },
   "keywordExistsError": {
-    "message": "This keyword is already in the list!",
-    "description": "Error message for duplicate keywords"
+    "message": "This keyword is already in the list!"
   },
   "noKeywordsError": {
-    "message": "Add at least one keyword before proceeding.",
-    "description": "Error message when no keywords are present"
+    "message": "Add at least one keyword before proceeding."
   },
   "deleteConfirmation": {
-    "message": "Are you sure you want to delete all history entries containing these keywords?",
-    "description": "Delete confirmation message"
+    "message": "Are you sure you want to delete all history entries containing these keywords?"
   },
   "deleteSuccess": {
     "message": "History successfully deleted! Items deleted: $COUNT$",
-    "description": "Success message after deletion",
     "placeholders": {
       "count": {
         "content": "$1",
@@ -62,15 +48,12 @@
     }
   },
   "deleteError": {
-    "message": "An error occurred while deleting history.",
-    "description": "Error message during deletion"
+    "message": "An error occurred while deleting history."
   },
   "removeKeyword": {
-    "message": "Remove keyword",
-    "description": "Tooltip for keyword removal button"
+    "message": "Remove keyword"
   },
   "supportText": {
-    "message": "If you want to support my work you can make a donation using the button below, thank you \u2764\ufe0f",
-    "description": "Support message for Buy Me a Coffee"
+    "message": "If you want to support my work you can make a donation using the button below, thank you \u2764\ufe0f"
   }
 }

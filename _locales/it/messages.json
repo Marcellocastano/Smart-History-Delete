@@ -1,59 +1,45 @@
 {
   "extName": {
-    "message": "Smart History Delete",
-    "description": "Nome dell'estensione"
+    "message": "Smart History Delete"
   },
   "extDescription": {
-    "message": "Rimuovi automaticamente le voci della cronologia in base a parole chiave specifiche",
-    "description": "Descrizione dell'estensione"
+    "message": "Rimuovi automaticamente le voci della cronologia in base a parole chiave specifiche"
   },
   "addKeyword": {
-    "message": "Aggiungi",
-    "description": "Testo del pulsante per aggiungere una parola chiave"
+    "message": "Aggiungi"
   },
   "keywordPlaceholder": {
-    "message": "Inserisci una parola chiave",
-    "description": "Testo placeholder per l'input delle parole chiave"
+    "message": "Inserisci una parola chiave"
   },
   "freeVersionLimit": {
-    "message": "parole chiave (versione gratuita)",
-    "description": "Testo che indica il limite della versione gratuita"
+    "message": "parole chiave"
   },
   "deleteHistory": {
-    "message": "Elimina dalla cronologia",
-    "description": "Testo del pulsante per eliminare la cronologia"
+    "message": "Elimina dalla cronologia"
   },
   "deletingHistory": {
-    "message": "Eliminazione in corso...",
-    "description": "Testo mostrato durante l'eliminazione"
+    "message": "Eliminazione in corso..."
   },
   "upgradeTitle": {
-    "message": "Passa a Pro",
-    "description": "Titolo della sezione upgrade"
+    "message": "Passa a Pro"
   },
   "upgradeDescription": {
-    "message": "Sblocca parole chiave illimitate e altre funzionalità premium",
-    "description": "Descrizione della versione Pro"
+    "message": "Sblocca parole chiave illimitate e altre funzionalità premium"
   },
   "upgradeButton": {
-    "message": "Upgrade a Pro",
-    "description": "Testo del pulsante per l'upgrade"
+    "message": "Upgrade a Pro"
   },
   "keywordExistsError": {
-    "message": "Questa parola chiave è già presente nella lista!",
-    "description": "Messaggio di errore per parole chiave duplicate"
+    "message": "Questa parola chiave è già presente nella lista!"
   },
   "noKeywordsError": {
-    "message": "Aggiungi almeno una parola chiave prima di procedere.",
-    "description": "Messaggio di errore quando non ci sono parole chiave"
+    "message": "Aggiungi almeno una parola chiave prima di procedere."
   },
   "deleteConfirmation": {
-    "message": "Sei sicuro di voler eliminare tutte le voci della cronologia contenenti queste parole chiave?",
-    "description": "Messaggio di conferma per l'eliminazione"
+    "message": "Sei sicuro di voler eliminare tutte le voci della cronologia contenenti queste parole chiave?"
   },
   "deleteSuccess": {
     "message": "Cronologia eliminata con successo! Elementi eliminati: $COUNT$",
-    "description": "Messaggio di successo dopo l'eliminazione",
     "placeholders": {
       "count": {
         "content": "$1",
@@ -62,15 +48,12 @@
     }
   },
   "deleteError": {
-    "message": "Si è verificato un errore durante l'eliminazione della cronologia.",
-    "description": "Messaggio di errore durante l'eliminazione"
+    "message": "Si è verificato un errore durante l'eliminazione della cronologia."
   },
   "removeKeyword": {
-    "message": "Rimuovi parola chiave",
-    "description": "Tooltip per il pulsante di rimozione della parola chiave"
+    "message": "Rimuovi parola chiave"
   },
   "supportText": {
-    "message": "Se vuoi supportare il mio lavoro puoi effettuare una donazione dal bottone qui sotto, grazie ❤️",
-    "description": "Messaggio di supporto per Buy Me a Coffee"
+    "message": "Se vuoi supportare il mio lavoro puoi effettuare una donazione dal bottone qui sotto, grazie ❤️"
   }
 }
